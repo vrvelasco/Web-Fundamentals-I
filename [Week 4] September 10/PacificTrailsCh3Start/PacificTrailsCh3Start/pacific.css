@@ -1,0 +1,21 @@
+body     { background-color: #FFFFFF; 
+           color:#666666 ; 
+		   font-family: Verdana, Arial, sans-serif; }
+header   { background-color: #000033;
+           color: #FFFFFF;
+           font-family: Georgia, serif; }
+h1       { line-height: 200%;}
+h2       { color: #3399CC;
+           font-family: Georgia, serif; }
+dt       { color: #000033;
+           font-weight: bold; }
+nav	     { font-weight: bold; 
+           background-color: #90C7E3; }
+footer   { font-size: .70em;
+		   font-style: italic; 
+           text-align: center; }
+.resort  { color: #000033;
+           font-size: 1.2em; }
+#wrapper { width: 80%;
+           margin-right: auto;
+           margin-left: auto; }
