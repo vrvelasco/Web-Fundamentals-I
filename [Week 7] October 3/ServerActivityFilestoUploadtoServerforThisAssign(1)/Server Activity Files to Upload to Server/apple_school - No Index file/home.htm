@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Apple Elementary School</title>
+<meta charset="utf-8">
+<script type="text/javascript">
+<!--hide from old browsers
+var Msg="  -- Welcome to Mr. Carson's Second Grade Class -- "
+var startAt=0
+function scrollingMsg() {
+     document.Message.msgBox.value=Msg.substring(startAt,Msg.length)+Msg.substring(0,startAt)
+     startAt+=1
+     if (startAt > Msg.length) {
+         startAt = 0
+     }
+     window.setTimeout("scrollingMsg()",300)
+}
+
+function emailValidate(emailForm) {
+    var atSign = document.emailForm.emailBox.value.indexOf("@")
+    if (atSign < 0) {
+	    alert("Sorry, that e-mail address is not valid. Please re-enter your e-mail address.")
+		document.emailForm.emailBox.focus()
+    } 
+    else {
+         alert("Thank you. Your e-mail address will be added to our mailing list.")
+	}
+}
+
+//-->
+</script>
+<style type="text/css">
+<!--
+.style1 {
+	color: #4a4a4a;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+</head>
+<body onload="scrollingMsg()">
+<div align="center">
+   <img src="apply10-1logo.gif" alt="logo banner" />
+   <br />
+      <img src="apply10-1divider.jpg" alt="brown divider" />
+   <form name="Message" action="">
+       <input name="msgBox" type="text" size="40" />
+   </form>
+</div>
+<p class="style1">Welcome to a new school year at Apple Elementary School and Mr. Carson's class. I know that children often lose notes and announcements from the school or the class. If you have access to e-mail, I ask that you register your e-mail with me and I will be sure to send you all announcements about homework, tests, field trips, and other school activities throughout the school year. I look forward to working closely with each of the students and the parents. </p>
+<form name="emailForm" action="">
+    Enter your e-mail address:
+    <input name="emailBox" type="text" size="35" maxlength="60" />
+    <input type="button" name="Submit" value="Submit" onclick="emailValidate(emailForm)" />
+    <input type="reset" name="Reset" value="Reset" />
+</form>
+<br />
+<div align="center">
+   <img src="apply10-1divider.jpg" alt="brown divider" />
+</div>
+</body>
+</html>

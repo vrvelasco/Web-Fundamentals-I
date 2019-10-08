@@ -1,0 +1,26 @@
+body {  background-color:#6699FF;
+        color: #D5E3FF; 
+        font-family: Verdana, Arial, sans-serif;
+     }
+#wrapper { margin-left: auto;    
+           margin-right: auto;
+           width:80%;
+         }
+h1 {     background-color:#6699FF;
+        font-family: "Times New Roman", serif;
+        color: #003366;
+        line-height:200%;
+}
+.category { font-weight: bold;
+            color: #003366; 
+            background-color:#6699FF;
+            font-size: 1.1em;
+         
+}
+#footer { font-size: .70em;
+        font-style: italic;
+}
+.nav { font-weight: bold;
+}
+
+  
