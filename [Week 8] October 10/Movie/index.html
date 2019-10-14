@@ -3,62 +3,66 @@
 <head>
 <title>Favorite Movie Information</title>
 <meta charset="utf-8">
+<link href="favicon.ico" rel="icon" type="image/x-icon">
 <style>
+body { background-color: #000000;
+       background-image: url("images/background.jpg");
+}
 table { margin: auto;
-        border: 5px solid #000066;
-        width: 900px;
+        border: 5px solid #FFE91F;
+        width: 800px;
 		border-spacing: 0;
 }
 td    { padding: 0.5em;
-		 border-style: none;
-         font-family: Arial, sans-serif; 
+        border-style: none;
+        font-family: Arial, sans-serif; 
 }
 caption { font-family: Verdana, sans-serif;
           font-weight: bold;
           font-size: 1.2em;
           padding: 0.5em;
-		  background-color: #006;
-		  color: #eaeaea;		  
+	  background-color: #FFE91F;
+	  color: #000000;		  
 }
-a       { text-align: center;
+tr:nth-of-type(even) { background-color: #E0E0E0;
 }
-tr:nth-of-type(even) { background-color: #eaeaea; }
+tr:nth-of-type(odd) { background-color: #EEEEEE; 
+}
 td:nth-of-type(odd) { font-weight: bold;
+}
+.logo    { text-align: center;
 }
 </style>
 </head>
 <body>
- <table border="1">  
+ <table>  
  <caption>Favorite Movie Information</caption>
    <tr>
-        <td rowspan="6"><a href="https://www.imdb.com/title/tt0076759"><img src="images/poster.jpg" width="300" height="500" alt="Star Wars: Episode IV - A New Hope" title="A long time ago in a galaxy far, far away..."></a></td>
+        <td rowspan="7"><a href="https://www.imdb.com/title/tt3748528/"><img src="images/poster.jpg" width="300" height="400" alt="Rogue One: A Star Wars Story" title="A long time ago in a galaxy far, far away..."></a></td>
     </tr>
 	<tr>
      <td>Title</td>
-	 <td>Star Wars: Episode IV - A New Hope (1977)</td>
+	 <td>Rogue One: A Star Wars Story (2016)</td>
   </tr>
   <tr>
      <td>Director</td>
-     <td>George Lucas</td>
+     <td><a href="https://www.imdb.com/name/nm2284484/"><img src="images/edwards.jpg" width="40" height="50" alt="Gareth Edwards"></a>&nbsp;Gareth Edwards</td>
   </tr>
   <tr>
      <td>Leading Actor</td>
-     <td>Mark Hamill</td>
+     <td><a href="https://www.imdb.com/name/nm0526019/"><img src="images/luna.jpg" width="40" height="50" alt="Diego Luna"></a>&nbsp;Diego Luna</td>
    </tr>
     <tr>
      <td>Leading Actress</td>
-     <td>Carrie Fisher</td>
+     <td><a href="https://www.imdb.com/name/nm0428065/"><img src="images/jones.jpg" width="40" height="50" alt="Felicity Jones"></a>&nbsp;Felicity Jones</td>
   </tr>
       <tr>
      <td>Rating</td>
-     <td>PG</td>
+     <td><img src="images/rating.png" width="44" height="15" alt="Rated PG-13"></td>
   </tr>
       <tr>
      <td>Description</td>
-     <td>Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the 
-	 Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.</td>
-  </tr>
-</table>
-
+     <td>The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.</td></table>
+<div class="logo"><img src="images/logo.png" width="694" height="419" alt="Star Wars"></div>
 </body>
 </html>

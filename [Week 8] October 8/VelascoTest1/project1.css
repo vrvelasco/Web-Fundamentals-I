@@ -1,8 +1,14 @@
 /* Victor Velasco 10/8/19 */
 
 header, nav, main, footer { display: block; } 
-* {box-sizing: border-box; }
-body { /*background-image: url(images/back.gif)*/
+* {box-sizing: border-box; 
+}
+blockquote { font-size: 1.3em;
+             font-style: italic;
+			 text-shadow: 3px 3px 3px #455A64;
+			 text-align: center;
+}
+body { background-image: url(images/back.gif);
        background-color: #78909C;
        font-family: Verdana, Arial, sans-serif;
 }
@@ -12,7 +18,7 @@ body { /*background-image: url(images/back.gif)*/
 		   color: #ECEFF1;
 		   box-shadow: 5px 5px 5px #263238;
 }
-h1 { background-image: url(images/logo.gif);
+h1 { background-image: url(images/logo.png);
      background-repeat: no-repeat;
      background-color: #263238;
 	 height: 110px;
@@ -37,8 +43,11 @@ nav a { text-decoration: none; }
 nav a:link { color: #ECEFF1; }
 nav a:visited{ color: #CFD8DC; }
 nav a:hover { color: #B0BEC5; }
-
-
+.center   { margin: auto;
+            width: 700px;
+			table-layout: fixed;
+			border-spacing: 0;
+}
 main { background-color: #607D8B;
           margin-left: 200px;
           padding: 1px 20px 20px 20px;   
@@ -50,6 +59,12 @@ main img { float: right;
 a      {color: #CFD8DC;
          font-weight: bold;
 	   }
+#cell  { background-color: #455A64;
+                       text-align: center; 
+}
+th:nth-of-type(even) { background-color: #455A64;
+                       text-align: center; 
+}
 footer { background-color: #263238;
        margin-left: 200px;
        padding: 20px;
