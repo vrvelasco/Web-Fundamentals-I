@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<title>Music Survey</title>
+<meta charset="utf-8">
+<link href="favicon.ico" rel="icon" type="image/x-icon">
+<style>
+body { background-image: url(images/background.jpg);
+       font-family: Arial, sans-serif;
+       font-weight: bold; }
+fieldset { width: 415px;
+           border: 2px solid #F57C00;
+           padding: 10px;
+           margin-bottom: 10px; }
+#wrapper { width: 450px;
+           margin: auto;
+		   background-color: #E65100;
+		   color: #FFF3E0;
+		   padding: 20px;
+		   padding-top: 5px;
+		   box-shadow: 5px 5px 5px #6D4C41; }
+a { text-decoration: none;
+    color: #FFCC80;}
+a:hover {color: #FFA726;}
+</style>
+</head>
+<body><div id="wrapper">
+<h1>Music Survey</h1>
+<form method="get">
+<!-- Name and Email fields -->
+<label>Name:<br><input type="text" name="name" id="name"></label><br><br>
+<label>E-Mail:<br><input type="email" name="email" id="email"></label><br><br>
+
+<!-- Music selection -->
+<fieldset><legend>Select Your Favorite Types of Music:</legend>
+<input type="checkbox" name="pop" id="pop">Pop<br>
+<input type="checkbox" name="classical" id="classical">Classical<br>
+<input type="checkbox" name="rock" id="rock">Rock<br>
+<input type="checkbox" name="folk" id="folk">Folk<br>
+<input type="checkbox" name="rap" id="rap">Rap<br>
+<input type="checkbox" name="other" id="other">Other<br>
+</fieldset>
+
+<!-- Purchase frequency -->
+<fieldset><legend>Select how often you purchase Music CDs:</legend>
+<input type="radio" name="radio" id="weekly">Weekly<br>
+<input type="radio" name="radio" id="few">A few CDs each year<br>
+<input type="radio" name="radio" id="montly">Monthly<br>
+<input type="radio" name="radio" id="never">Never purchase<br>
+</fieldset>
+
+<!-- Locations -->
+<label for="location">Select the locations you listen to Music:</label>
+<select size="3" name="location" id="location">
+<option value="home">At home</option>
+<option value="car">In the car</option>
+<option value="mp3">Anywhere (MP3 Player)</option>
+<option value="other">Other</option><br><br>
+
+<!-- Role -->
+<label for="role">What role does music play in your life?</label><br>
+<textarea name="role" id="role" rows="3" cols="60"></textarea><br><br>
+<input type="submit"> <input type="reset">
+</form><br>
+Victor Velasco&nbsp;(<a href="mailto:victor.velasco@student.swic.edu">victor.velasco@student.swic.edu</a>)
+</div>
+</body>
+</html>
