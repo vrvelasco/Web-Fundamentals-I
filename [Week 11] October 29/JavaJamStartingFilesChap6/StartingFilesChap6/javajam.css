@@ -1,0 +1,62 @@
+* { box-sizing: border-box; }
+body { background-color: #FCEBB6; 
+      background-image: url(background.gif);
+      color: #221811;
+      font-family: Verdana, Arial, sans-serif;
+	  background-image: url(background.gif);
+}
+#wrapper { background-color: #FEF6C2;
+           width: 80%;
+           margin-right: auto;
+		   margin-left: auto;
+           min-width: 900px;
+		   max-width: 1280px;
+		   box-shadow: 3px 3px 3px #666666; 
+}
+header { background-color: #D2B48C;
+        height: 150px;
+       background-image: url(javajamlogo.jpg);
+       background-repeat: no-repeat;
+}
+h1 { padding-top: 45px;
+    padding-left: 220px;
+	font-size: 3em; 
+}
+nav { text-align: center; 
+     font-weight: bold; 
+	 font-size: 1.5em;
+	 padding-top: 10px;
+}
+nav a { text-decoration: none; }
+footer { background-color: #D2B48C;
+       font-size: small;
+	   font-style: italic;
+	   text-align: center;
+	   padding-bottom: 10px;
+	   border-top: 2px #221811 solid;
+}
+main { padding-left: 2em;
+      padding-right: 2em;
+	  padding-bottom: 2em;
+      display: block; 
+}
+h4 { background-color: #d2B48C;
+    font-size: 1.2em;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+.details { padding-left: 20%;
+          padding-right: 20%;
+}
+img { padding-left: 10px;
+     padding-right: 10px;
+}
+#heroroad { background-image: url(heroroad.jpg);
+            background-size: 100%;
+			height: 250px;}
+#heromugs { background-image: url(heromugs.jpg);
+            background-size: 100%;
+            height: 250px; }
+#heroguitar { background-image: url(heroguitar.jpg);
+            background-size: 100%;
+            height: 250px; }
