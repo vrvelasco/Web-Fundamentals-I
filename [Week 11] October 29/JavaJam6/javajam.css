@@ -1,9 +1,9 @@
 * { box-sizing: border-box; }
 body { background-color: #FCEBB6; 
-      background-image: url(background.gif);
+      background-image: url(images/background.gif);
       color: #221811;
       font-family: Verdana, Arial, sans-serif;
-	  background-image: url(background.gif);
+	  background-image: url(images/background.gif);
 }
 #wrapper { background-color: #231814;
            width: 80%;
@@ -15,7 +15,7 @@ body { background-color: #FCEBB6;
 }
 header { background-color: #D2B48C;
         height: 150px;
-       background-image: url(javajamlogo.jpg);
+       background-image: url(images/javajamlogo.jpg);
        background-repeat: no-repeat;
 }
 h1 { padding-top: 45px;
@@ -30,13 +30,17 @@ nav { text-align: center;
 	 padding-top: 10px;
 }
 nav a:link { text-decoration: none;
-        color: #FEF6C2; }
+             color: #FEF6C2; 
+}
 nav a:visited { text-decoration: none;
-        color: #D2B48C; }
+                color: #D2B48C; 
+}
 nav a:hover { text-decoration: none;
-        color: #CC9933; }
+              color: #CC9933; 
+}
 nav ul { list-style-type: none;
-         padding-left: 0px;}
+         padding-left: 0px;
+}
 footer { background-color: #D2B48C;
        font-size: small;
 	   font-style: italic;
@@ -45,41 +49,45 @@ footer { background-color: #D2B48C;
 	   border-top: 2px #221811 solid;
 }
 main { padding-left: 0px;
-      padding-right: 0px;
-      margin-left: 200px;
-      padding-top: 0px;
-      background-color: #FEF6C2;
-	  padding-bottom: 2em;
-      display: block; 
+       padding-right: 0px;
+       margin-left: 200px;
+       padding-top: 0px;
+       background-color: #FEF6C2;
+	   padding-bottom: 2em; 
+       display: block; 
 }
-main h2 h3 h4 p div ul dl { padding-left: 3em;
-          padding-right: 2em;}
+main h2, h3, h4, p, div ul, dl { padding-left: 3em;
+                                  padding-right: 2em;
+}
 h4 { background-color: #d2B48C;
      text-transform: uppercase;
      border-bottom: 1px solid black;
-    font-size: 1.2em;
-	padding-left: 10px;
-	padding-bottom: 0px;
-         clear: left;
-        
+     font-size: 1.2em;
+	 padding-left: 10px;
+	 padding-bottom: 0px;
+     clear: left;      
 }
 .details { padding-left: 20%;
-          padding-right: 20%;
-          overflow: auto;
+           padding-right: 20%;
+           overflow: auto;
 }
 img { padding-left: 10px;
      padding-right: 10px;
 }
-#heroroad { background-image: url(heroroad.jpg);
+#heroroad { background-image: url(images/heroroad.jpg);
             background-size: 100%;
-			height: 250px;}
-#heromugs { background-image: url(heromugs.jpg);
+			height: 250px;
+}
+#heromugs { background-image: url(images/heromugs.jpg);
             background-size: 100%;
-            height: 250px; }
-#heroguitar { background-image: url(heroguitar.jpg);
+            height: 250px; 
+}
+#heroguitar { background-image: url(images/heroguitar.jpg);
             background-size: 100%;
-            height: 250px; }
+            height: 250px; 
+}
 .floatleft { float: left;
-padding-right: 20px;
-padding-bottom: 20px;}
+             padding-right: 20px;
+             padding-bottom: 20px;
+}
 header, nav, main, footer { display: block; }
