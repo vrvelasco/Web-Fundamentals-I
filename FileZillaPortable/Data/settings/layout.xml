@@ -2,12 +2,12 @@
 <FileZilla3>
     <Layout Builddate="2012-11-29" Buildtime="22:57:45">
         <Resources>
-            <xrc file="dialogs.xrc" date="1354229980" />
-            <xrc file="menus.xrc" date="1354229980" />
-            <xrc file="netconfwizard.xrc" date="1354229980" />
-            <xrc file="quickconnectbar.xrc" date="1354229980" />
-            <xrc file="settings.xrc" date="1354229980" />
-            <xrc file="toolbar.xrc" date="1354229980" />
+            <xrc file="dialogs.xrc" date="1354226380" />
+            <xrc file="menus.xrc" date="1354226380" />
+            <xrc file="netconfwizard.xrc" date="1354226380" />
+            <xrc file="quickconnectbar.xrc" date="1354226380" />
+            <xrc file="settings.xrc" date="1354226380" />
+            <xrc file="toolbar.xrc" date="1354226380" />
         </Resources>
         <Language id="en_US" date="">
             <Font font="0;-11;0;0;0;400;0;0;0;0;0;0;0;0;MS Shell Dlg 2" width="622" height="13" />
