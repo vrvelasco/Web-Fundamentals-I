@@ -1,10 +1,10 @@
 * { box-sizing: border-box; }
 header, nav, main, footer { display: block; }
 body { background-color: #FCEBB6; 
-      background-image: url(background.gif);
+      background-image: url(images/background.gif);
       color: #221811;
       font-family: Verdana, Arial, sans-serif;
-	  background-image: url(background.gif);
+	  background-image: url(images/background.gif);
 }
 #wrapper { background-color: #231814;
            width: 80%;
@@ -17,7 +17,7 @@ body { background-color: #FCEBB6;
 
 header { background-color: #D2B48C;
         height: 150px;
-       background-image: url(javajamlogo.jpg);
+       background-image: url(images/javajamlogo.jpg);
        background-repeat: no-repeat;
 }
 h1 { padding-top: 45px;
@@ -66,7 +66,7 @@ h4 { background-color: #d2B48C;
 	border-bottom: 1px solid #000033;
 	clear: left;
 }
-fieldset { width: 415px;
+fieldset { width: 275px;
            border: 2px solid #F57C00;
            padding: 10px;
            margin-bottom: 10px;
@@ -74,14 +74,14 @@ fieldset { width: 415px;
 form { font-weight: bold;
        font-size: .7em;
        font-family: Verdana, Arial, sans-serif; }
-table { margin: auto;
-        border: 5px solid #000066;
-        width: 600px; 
+table {	margin: auto;
+		border: 5px solid #000066;
+        width: 275px; 
 		border-spacing: 0;
 }
 td, th { padding: 0.5em;
 		 border-style: none;
-         font-family: Arial, sans-serif; 
+         font-family: Arial, sans-serif;
 }
 caption { font-family: Verdana, sans-serif;
           font-weight: bold;
@@ -90,7 +90,10 @@ caption { font-family: Verdana, sans-serif;
 }
 tr:nth-of-type(even) { background-color: #eaeaea; }
 tr:first-of-type { background-color: #006;
-				   color: #eaeaea; }
+				   color: #eaeaea; 
+}
+.middle { margin: auto;
+}
 .details { padding-left: 20%;
           padding-right: 20%;
 		  overflow: auto;
@@ -102,7 +105,7 @@ tr:first-of-type { background-color: #006;
 img { padding-left: 10px;
      padding-right: 10px;
 }
-#heroroad { background-image: url(heroroad.jpg);
+#heroroad { background-image: url(supplies.jpg);
            background-size: 100% 100%;
 		   height: 250px; }
 #heromugs { background-image: url(heromugs.jpg);
@@ -153,7 +156,7 @@ img { padding-left: 10px;
 }
 /* Phone */
 @media only screen and (max-width: 768px) {
-    header      { background-image: url(javajammini.jpg);
+    header      { background-image: url(images/javajammini.jpg);
                   height: 128px; }
     h1          { font-size: 2em;
 	              text-align: center;

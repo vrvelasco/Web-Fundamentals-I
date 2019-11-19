@@ -24,25 +24,52 @@
 </ul>
 </nav>
 <main>
-<form method="get">
+<div class="middle"><form method="get">
 <!-- Start Customer Info -->
-<label>Name:&nbsp;<input type="text" name="name" id="name"></label><br><br>
+<div class="floatleft"><table>
+	<tr>
+		<th colspan="2">Customer Information</th>
+	</tr>
+	<tr>
+		<td><label>Name:</label></td>
+		<td><input type="text" name="name" id="name"></td>
+	</tr>
+
 	<!-- Start Address -->
-	<label>Address 1:&nbsp;<input type="text" name="ad1" id="ad1"></label><br><br>
-	<label>Address 2:&nbsp;<input type="text" name="ad2" id="ad2"></label><br><br>
-	<label>City:&nbsp;<input type="text" name="city" id="city"></label>
+	<tr>
+		<td><label>Address 1:</label></td>
+		<td><input type="text" name="ad1" id="ad1"></td>
+	</tr>
+	<tr>
+		<td><label>Address 2:</label></td>
+		<td><input type="text" name="ad2" id="ad2"></td>
+	</tr>
+	<tr>
+		<td><label>City:</label></td>
+		<td><input type="text" name="city" id="city"></td>
+	</tr>
 		<!-- Start State Selection -->
-		<label for="state">State:</label>
-		<select size="1" name="state" id="state">
+	<tr>
+		<td><label for="state">State:</label></td>
+		<td><select size="1" name="state" id="state">
 		<option value="il">Illinois</option>
 		<option value="mo">Missouri</option>
+		</select>&nbsp;
 		<!-- End State Selection -->
-	</select><label>&nbsp;ZIP Code:&nbsp;<input type="text" name="zip" id="zip"></label><br><br>
+		<label>&nbsp;ZIP:</label>
+		<input type="text" name="zip" id="zip" maxlength="5" size="5"></td>
+	</tr>
 	<!-- End Address -->
-<label>E-Mail:&nbsp;<input type="email" name="email" id="email"></label><br><br>
-<label>Phone:&nbsp;<input type="text" name="phone" id="phone"></label><br><br>
+	<tr>
+		<td><label>E-Mail:</label></td>
+		<td><input type="email" name="email" id="email"></td>
+	</tr>
+	<tr>
+		<td><label>Phone:</label></td>
+		<td><input type="text" name="phone" id="phone"></td>
+	</tr>
+</table></div>
 <!-- End Customer Info -->
-
 <!-- Start Service Selection -->
 <fieldset><legend>What services are you interested in?:</legend>
 <input type="checkbox" name="S1" id="S1">SERVICE 1<br>
@@ -53,7 +80,7 @@
 
 <!-- Start Contact Preference -->
 <fieldset><legend>How would you like to be contacted?:</legend>
-<input type="radio" name="radio" id="home">In-home<br>
+<input type="radio" name="radio" id="home">In home<br>
 <input type="radio" name="radio" id="phone">By phone<br>
 <input type="radio" name="radio" id="email">Email<br>
 </fieldset>
@@ -61,24 +88,10 @@
 
 <!-- Start Comment Section -->
 <label for="comments">Comments:</label><br>
-<textarea name="comments" id="comments" rows="3" cols="60"></textarea><br>
+<textarea name="comments" id="comments" rows="3" cols="36"></textarea><br>
 <input type="submit"> <input type="reset">
-</form><br>
+</form></div>
 <!-- End Comment Section -->
-
-<!-- NEW STUFF -->
-<div id="heroguitar"></div>
-<h2>Music at JavaJam</h2>
-<p>The first Friday night each month at JavaJam is a special night. Join us from 8 pm to 11 pm for some music you won&#39;t want to miss!</p>
-<h4>January</h4>
-<div class="details">
-<a href="melanie.jpg"><img src="melaniethumb.jpg" class="floatleft" alt="Melanie Morris" width="80" height="80"></a>Melanie Morris entertains with her melodic folk style.
-</div>
-<h4>February</h4>
-<div class="details">
-<a href="greg.jpg"><img src="gregthumb.jpg" class="floatleft" alt="Tahoe Greg" width="80" height="80"></a>
-Tahoe Greg is back from his tour. New songs. New stories.
-</div>
 </main>
 <footer>
 Copyright &copy; 2016 JavaJam Coffee House<br>
