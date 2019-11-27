@@ -1,0 +1,48 @@
+body { background-image: url('back.gif');
+       font-family: arial;
+       font-size: 100%; }
+#wrapper { background-color: #cccccc; 
+           color: #000000;
+           width: 80%;
+		   margin: auto;
+           min-width: 960px;
+		   max-width: 1200px;
+} 
+h1 { background-color: #ffffcc;
+          color: #48751A; }
+h2 {display: block;
+   margin-left: auto;
+	margin-right: auto;}
+p { font-size: 150%; }
+
+footer { font-size: .60em;
+          font-style: italic; }
+header { color: #00005D; 
+    	width: 90%;
+		margin: auto;
+        min-width: 960px;
+	  max-width: 1200px;
+		height: 180px;
+}
+header img {width: 100%;}
+nav {margin-top: 40px;} 
+} 
+nav ul { list-style-type: none;
+         margin-left: 0;
+         padding: 10px;
+}
+nav li{display: inline;}
+nav a { text-decoration: none;
+        padding: 20px;
+        font-weight: bold;
+		display: inline-block;
+		border: 2px solid white;
+		background-image: url(sprite.png);
+		background-repeat: no-repeat;
+		background-position: right 0;
+}
+nav a:link { color: #ffffff; }
+nav a:visited { color: #000000; }
+nav a:hover { color: #000000;background-position: right -100px;	 }
+#center {text-align: center;}
+/*Thomas Doe, 2/25/2016*/
