@@ -9,9 +9,51 @@
            color: #000000;
            width: 80%;
 		   margin: auto;
+		   margin-top: 50px;
            min-width: 960px;
 		   max-width: 1200px;
 } 
+/* NAV BAR */
+#title     { font-size: 100px;
+             color: #EFEBE9;
+             font-style: italic;
+			 text-shadow: 3px 3px 3px #3E2723;
+			 text-align: center;
+}
+#navbar {  background-color: #A1887F;
+           width: 80%;
+           margin-right: auto;
+		   margin-left: auto;
+           min-width: 900px;
+		   max-width: 1280px;
+		   box-shadow: 3px 3px 3px #666666;
+		   border-radius: 5px;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5D4037;
+  border-radius: 0px 0px 5px 5px;
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  background-color: #3E2723;
+}
+/* END OF NAV BAR */
 h1 { background-color:#6699FF;
         font-family: "Times New Roman", serif;
         color: #003366;
@@ -51,7 +93,9 @@ header { color: #00005D;
 		height: 180px;
 }
 header img {width: 100%;}
+
 /* Navigation bar above */
+
 body { background-color: #000000;
        background-image: url("images/background.jpg");
 }
@@ -82,20 +126,17 @@ td:nth-of-type(odd) { font-weight: bold;
 </style>
 </head>
 <body>
-<div id="wrapper">
-<header>
-  <img src="../banner84.png" alt="eportfolio banner">
-  </header>
-  <nav>
+<div id="navbar">
+<div id="title">ePortfolio</div>
     <ul>
       <li><a href="../index.html">Home</a></li>
       <li><a href="../resume.html">Resume</a></li>
-      <li><a href="../test1/index.html">Test 1</a></li>
-      <li><a href="../test2/index.html">Test 2</a></li>
-	   <li><a href="index.html">Fish Creek</a></li>
+      <li><a href="../Exam1/index.html">Midwest Homes</a></li>
+      <li><a href="../Exam2/index.html">SWIC Cleaning Services</a></li>
+	  <li><a href="index.html">Favorite Movie</a></li>
 	</ul>
-  </nav>
-</div>
+  </div>
+<div id="wrapper">
  <table>  
  <caption>Favorite Movie Information</caption>
    <tr>
@@ -124,6 +165,7 @@ td:nth-of-type(odd) { font-weight: bold;
       <tr>
      <td>Description</td>
      <td>The daughter of an Imperial scientist joins the Rebel Alliance in a risky move to steal the Death Star plans.</td></table>
+	 </div>
 <div class="logo"><img src="images/logo.png" width="694" height="419" alt="Star Wars"></div>
 </body>
 </html>
